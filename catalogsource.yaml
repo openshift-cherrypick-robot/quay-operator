@@ -1,0 +1,8 @@
+apiVersion: operators.coreos.com/v1alpha1
+kind: CatalogSource
+metadata:
+  name: quay-operator
+spec:
+  sourceType: grpc
+  image: quay.io/quay/quay-rhel8-operator-catalog:1.1.0-5-2
+  imagePullPolicy: Always
