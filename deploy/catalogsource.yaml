@@ -5,4 +5,4 @@ metadata:
   namespace: openshift-marketplace
 spec:
   sourceType: grpc
-  image: quay.io/quay/quay-rhel8-operator-catalog:1.1.0-6
+  image: quay.io/quay/quay-rhel8-operator-catalog:1.1.0-9
