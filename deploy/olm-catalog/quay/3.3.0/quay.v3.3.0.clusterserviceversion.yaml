@@ -127,7 +127,7 @@ metadata:
     capabilities: Basic Install
     categories: Integration & Delivery
     certified: "false"
-    containerImage: quay.io/quay/quay-rhel8-operator@sha256:a76dbef6515a9b354dbfa1484577907e8bcd1b638f9989b24011e562e94df570
+    containerImage: registry.redhat.io/quay/quay-rhel8-operator@sha256:d87570e138281a1bd6e73d77053766cf29e7c343355d75b040acd56e5fc9a150
     createdAt: "2020-05-06"
     description: Red Hat Quay is a private container registry that stores,
       builds, and deploys container images.
@@ -239,7 +239,7 @@ spec:
                       fieldPath: metadata.name
                 - name: OPERATOR_NAME
                   value: quay-operator
-                image: quay.io/quay/quay-rhel8-operator@sha256:a76dbef6515a9b354dbfa1484577907e8bcd1b638f9989b24011e562e94df570 
+                image: registry.redhat.io/quay/quay-rhel8-operator@sha256:d87570e138281a1bd6e73d77053766cf29e7c343355d75b040acd56e5fc9a150
                 imagePullPolicy: Always
                 name: quay-operator
                 resources: {}
