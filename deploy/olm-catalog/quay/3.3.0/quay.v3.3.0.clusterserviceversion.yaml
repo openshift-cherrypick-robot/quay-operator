@@ -239,7 +239,7 @@ spec:
                       fieldPath: metadata.name
                 - name: OPERATOR_NAME
                   value: quay-operator
-                image: quay.io/redhat-cop/quay-operator:v3.3.0
+                image: quay.io/quay/quay-rhel8-operator@sha256:a76dbef6515a9b354dbfa1484577907e8bcd1b638f9989b24011e562e94df570 
                 imagePullPolicy: Always
                 name: quay-operator
                 resources: {}
