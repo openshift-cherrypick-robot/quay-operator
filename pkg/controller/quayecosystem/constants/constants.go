@@ -19,7 +19,7 @@ const (
 	// ImagePullSecret is the name of the image pull secret for retrieving images from a protected image registry
 	ImagePullSecret = "redhat-pull-secret"
 	// RedisImage is the name of the Redis Image
-	RedisImage = "registry.redhat.io/rhel8/redis-5@sha256:2b346e46ddf698e8a8436025c83e0a28b0e222851c007fdf83ad28ac71a13bfd"
+	RedisImage = "registry.redhat.io/rhel8/redis-5@sha256:ee07b7d2113fd819b183f01c134dff13c8cfe965669f330a6e384791f8ac3d4e"
 	// ClairImage is the Clair image
 	// SHA is pointing to Clair v2 3.3.0
 	ClairImage = "quay.io/redhat/clair-jwt@sha256:6e936bb78ac93e70196f3643d66e7e33d7a8e2914cec33e85ad46172a87d3c80"
@@ -56,7 +56,7 @@ const (
 	// PostgresqlName is the name used to represent PostgreSQL
 	PostgresqlName = "postgresql"
 	// PostgresqlImage is the Postgresql image
-	PostgresqlImage = "registry.redhat.io/rhel8/postgresql-96@sha256:a1cefc2150dd0849804740bbce7ebb2efc9629db55a0e735dfacace43f6b9700"
+	PostgresqlImage = "registry.redhat.io/rhel8/postgresql-96@sha256:e2f16336f000f5c89d5d431a067a6c43c601789e801daee69a12c0871640969f"
 	// PostgreSQLPort is the database port for PostgreSQL
 	PostgreSQLPort = 5432
 	// PostgresDataVolumeName is the name given to the  is the database volume
